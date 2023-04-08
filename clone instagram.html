@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>instagram - Clone coding</title>
+    <style>
+        @import url(default.css);
+
+        .gnb-content {
+
+            width: 1000px;
+            height: 60px;
+            padding: 5px;
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .logo>i {
+            font-size: 12px;
+            margin-left: 3px;
+        }
+
+        .search-box {
+            background-color: #efefef;
+            width: 268px;
+            height: 36px;
+            border-radius: 8px;
+        }
+
+        .search-box>img {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .search-box > input {
+            border: none;
+            margin-right: auto;
+            font-size: 16px;
+            background-color: transparent;
+            font-weight: lighter;
+
+            background-image: url('image/icons/11.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-indent: 25px;
+
+            margin-left: 10px;
+        }
+        .search-box > input:focus {
+            outline: none;
+            background-image: none;
+            text-indent: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gnb flex row">
+        <div class="gnb-content">
+            <div class="logo flex-row">
+                <img width="102" src="image/logo_instagram.png">
+                <i class="bi bi-chevron-down"></i>
+            </div>
+        </div>
+        <div class="search-box flex row">
+            <img src="image/icons/11.png">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+</body>
+
+</html>
